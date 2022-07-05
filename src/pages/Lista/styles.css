@@ -1,0 +1,43 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media(min-width: 576px) {
+    .home-buttan {       
+        flex-direction: row;       
+    }
+
+    .home-buttan-icon {
+        margin: 20px 10px 10px 40px;
+    }
+
+    .home-buttan-descrition {
+        margin: 30px 10px 10px 10px;  
+    }
+}
+
+@media(min-width: 991px) {
+
+    .home-container {
+        margin: 0 40px 0 40px;
+    }
+
+    .home-card {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .home-image-container img {
+        margin-right: 20px;
+    }
+
+    .profile-description {
+        text-align: left;
+    }
+
+
+}
+
+@media(max-width: 111px) {}
